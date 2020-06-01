@@ -1,0 +1,1 @@
+Gamemode for 2020 GGC competition
