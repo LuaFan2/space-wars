@@ -1,10 +1,8 @@
-name="gamemode"
-
-rm -rf $name
-mkdir $name
+rm -rf "gamemode"
+mkdir "gamemode"
 
 # Compile the MoonScript code into Lua.
-moonc -t $name src
+moonc -t gamemode src
 
-mv -v $name/src/* $name
-rmdir $name/src
+mv -v gamemode/src/* gamemode/
+rmdir gamemode/src
