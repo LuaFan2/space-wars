@@ -1,10 +1,8 @@
-{ :classes } = include "database/classes.lua"
-
 specializations = {}
 
 specializations["Stormtrooper"] = {
 	description: "The main combat unit"
-	class: classes["Trooper"]
+	class: database.classes["Trooper"]
 
 	weapons: {
 
@@ -13,7 +11,7 @@ specializations["Stormtrooper"] = {
 
 specializations["Sniper"] = {
 	description: "Long-range support unit"
-	class: classes["Trooper"]
+	class: database.classes["Trooper"]
 
 	weapons: {
 
@@ -22,7 +20,7 @@ specializations["Sniper"] = {
 
 specializations["Demoman"] = {
 	description: "Close support unit"
-	class: classes["Trooper"]
+	class: database.classes["Trooper"]
 
 	weapons: {
 		
