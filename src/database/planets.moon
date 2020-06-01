@@ -1,4 +1,4 @@
-{ :race } = include "database/races.lua"
+{ :races } = include "database/races.lua"
 
 planets = {}
 
@@ -6,7 +6,7 @@ planets["Earth"] = {
 	bounds: {Vector(1,1,1), Vector(2,2,2)}
 	description: "Homeworld of human beings"
 
-	native: race["Human"]
+	native: races["Human"]
 
 	params: {
 		air: true
