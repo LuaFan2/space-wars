@@ -1,15 +1,9 @@
-export spaceWars
-
-spaceWars = {}
+{ :includer } = include "tools/includer.lua"
 
 AddCSLuaFile('sh_includes.lua')
 include('sh_includes.lua')
 
+modules = {}
 
-modules = {
-    core: {
-    }
-}
-
-for module in *modules.core
-    moon.IncludeModule(module)
+for module in *modules
+    includer.IncludeModule(module)
