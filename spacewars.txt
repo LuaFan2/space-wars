@@ -1,0 +1,15 @@
+"spacewars"
+{
+	"base"		"sandbox"
+    "title"  "Space Wars"
+    "version"   "1"
+    "menusystem"	"1"
+
+    "author_name"   "Emperor Penguin Protector"
+    "author_email"  "thedenext@gmail.com"
+    "author_url"    ""
+
+    "icon"  ""
+    "info"  ""
+    "hide"  "0"
+}
