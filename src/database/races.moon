@@ -3,7 +3,7 @@ races = {}
 races["Human"] = {
 	description: "A delightful creature"
 
-	bonus = (human) ->
+	bonus: (human) ->
 }
 
 { :races }
