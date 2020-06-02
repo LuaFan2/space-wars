@@ -1,3 +1,5 @@
+![build status](https://github.com/LuaFan2/space-wars/workflows/test/badge.svg)
+
 # Space Wars
 Gamemode for 2020 GGC competition
 
@@ -9,4 +11,4 @@ Gamemode for 2020 GGC competition
 
 ## Concept
 ### General
-Three races on three planets. Who will establish dominance?
+Three races on three planets. Which race will establish dominance and destroy competitors?
