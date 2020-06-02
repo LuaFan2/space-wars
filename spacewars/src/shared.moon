@@ -5,6 +5,9 @@
 -------------------
 
 export database = {
+	players = {}
+	progress = {}
+
 	races: require 'database/races.lua'
 
 	buildings: require 'database/buildings.lua'
@@ -12,6 +15,9 @@ export database = {
 
 	classes: require 'database/classes.lua'
 	specialization: require 'database/specializations.lua'
+
+	researches: require 'database/researches.lua'
+	tech: require 'database/tech.lua'
 }
 
 ------------------
