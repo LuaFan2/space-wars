@@ -28,6 +28,6 @@ jobs:
       run: |
         luarocks install moonscript
 
-    - name: compile
+    - name: test
       run: |
-        sh compile.sh
+        bash test.sh
