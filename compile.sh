@@ -1,3 +1,5 @@
+cd spacewars
+
 rm -rf "gamemode"
 mkdir "gamemode"
 
