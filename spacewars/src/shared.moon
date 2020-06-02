@@ -5,7 +5,9 @@
 -------------------
 
 export database = {
-	players = {}
+	config: require 'database/config.lua'
+
+	players: {}
 	progress: {}
 
 	races: require 'database/races.lua'
