@@ -26,7 +26,9 @@ export database = {
 -- Modules include
 ------------------
 
-modules = {}
+modules = {
+	'player'
+}
 
 for module in *modules
     includer.IncludeModule(module)
