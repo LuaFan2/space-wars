@@ -5,21 +5,21 @@
 -------------------
 
 export database = {
-	config: require 'database/config.lua'
+	config: include 'database/config.lua'
 
 	players: {}
 	progress: {}
 
-	races: require 'database/races.lua'
+	races: include 'database/races.lua'
 
-	buildings: require 'database/buildings.lua'
-	planets: require 'database/planets.lua'
+	buildings: include 'database/buildings.lua'
+	planets: include 'database/planets.lua'
 
-	classes: require 'database/classes.lua'
-	specialization: require 'database/specializations.lua'
+	classes: include 'database/classes.lua'
+	specialization: include 'database/specializations.lua'
 
-	researches: require 'database/researches.lua'
-	tech: require 'database/tech.lua'
+	researches: include 'database/researches.lua'
+	tech: include 'database/tech.lua'
 }
 
 ------------------
