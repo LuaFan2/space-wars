@@ -12,7 +12,6 @@ player.GetRace = (self) ->
 
 	database.players[self].race
 
-
 player.InDangerEnvironment = (self) ->
 	planet = self\GetPlanet!
 	race = self\GetRace!
@@ -21,9 +20,9 @@ player.InDangerEnvironment = (self) ->
 		return nil
 
 	if (not planet and race.params.need_air == true) or (planet and planet.params.air == false and race.params.need_air == true)
-		return true
+		return true, "choke"
 
 	if (planet and planet.params.toxic == true and race.params.toxic_resist == false)
-		return true
+		return true, "poisoning"
 
 	false

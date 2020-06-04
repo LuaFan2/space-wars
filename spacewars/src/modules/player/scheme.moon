@@ -4,5 +4,7 @@ includer.IncludeFiles({
 	}
 
     client: {}
-    server: {}
+    server: {
+    	'player_sv.lua'
+    }
 })
