@@ -4,27 +4,21 @@ specializations["Stormtrooper"] = {
 	description: "The main combat unit"
 	class: database.classes["Trooper"]
 
-	weapons: {
-
-	}
+	weapons: {}
 }
 
 specializations["Sniper"] = {
 	description: "Long-range support unit"
 	class: database.classes["Trooper"]
 
-	weapons: {
-
-	}
+	weapons: {}
 }
 
 specializations["Demoman"] = {
 	description: "Close support unit"
 	class: database.classes["Trooper"]
 
-	weapons: {
-		
-	}
+	weapons: {}
 }
 
 { :specializations }

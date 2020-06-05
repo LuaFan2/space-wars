@@ -28,7 +28,8 @@ export database = {
 
 modules = {
 	'player'
+	'character'
 }
 
 for module in *modules
-    includer.IncludeModule(module)
+    includer.IncludeModule module
