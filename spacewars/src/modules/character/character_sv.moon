@@ -39,3 +39,9 @@ hook.Add "PlayerInitialSpawn", "character.spawn", (player) ->
 		self\SetHealth player.class.health
 	if player.class.armor
 		self\SetArmor player.class.armor
+
+	if player.race.bonus
+		player.race.bonus!
+
+	spawns = player.race.homeworld.spawns.native
+	player\SetPos spawns[math.random(#spawns)]
