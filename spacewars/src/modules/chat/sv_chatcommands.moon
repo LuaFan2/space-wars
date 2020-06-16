@@ -27,15 +27,15 @@ spacewars.chat = (player, name, text, radius) ->
 		name = ""
 	
 	net.Start "chat"
-		net.WriteUInt col.r, 8
-		net.WriteUInt col.g, 8
-		net.WriteUInt col.b, 8
-		net.WriteString name
-		net.WriteEntity player
-		net.WriteUInt 255, 8
-		net.WriteUInt 255, 8
-		net.WriteUInt 255, 8
-		net.WriteString text
+	net.WriteUInt col.r, 8
+	net.WriteUInt col.g, 8
+	net.WriteUInt col.b, 8
+	net.WriteString name
+	net.WriteEntity player
+	net.WriteUInt 255, 8
+	net.WriteUInt 255, 8
+	net.WriteUInt 255, 8
+	net.WriteString text
 	net.Send filter
 
 hook.Add "PlayerSay", "spacewars.chat_handler", (player, text) ->

@@ -8,7 +8,9 @@ export spacewars = {}
 
 export database = {
 	config: include 'database/config.lua'
+	language: database.config.language
 
+	phrases: {}
 	players: {}
 	progress: {}
 
@@ -24,6 +26,12 @@ export database = {
 	tech: include 'database/tech.lua'
 }
 
+---------------
+-- Translations
+---------------
+
+include "database/translations.lua"
+
 ------------------
 -- Modules include
 ------------------
@@ -31,6 +39,8 @@ export database = {
 modules = {
 	'player'
 	'character'
+	'language'
+	'chat'
 }
 
 for module in *modules

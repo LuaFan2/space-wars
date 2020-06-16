@@ -1,12 +1,12 @@
 table.ExplodeByTags = (text, seperator, open, close, bRemoveTag) ->
-    results = {};
-    current = "";
-    tag = nil;
+    results = {}
+    current = ""
+    tag = nil
 
     text = string.gsub(text, "%s+", " ")
     
     for i = 1, #text
-        character = string.sub(text, i, i);
+        character = string.sub(text, i, i)
         
         if not tag
             if character == open

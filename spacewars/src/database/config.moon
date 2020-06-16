@@ -1,5 +1,7 @@
 config = {}
 
+config.language = "english"
+
 config.chat = {
 	globalChat: false
 	teamChat: true
