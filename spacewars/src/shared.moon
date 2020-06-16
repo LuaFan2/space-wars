@@ -4,6 +4,8 @@
 -- Database include
 -------------------
 
+export spacewars = {}
+
 export database = {
 	config: include 'database/config.lua'
 
